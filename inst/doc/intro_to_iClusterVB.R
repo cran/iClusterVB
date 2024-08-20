@@ -38,15 +38,15 @@ fit_iClusterVB <- iClusterVB(
 # We can obtain a summary using summary()
 summary(fit_iClusterVB)
 
-## ----plots, fig.width= 6, fig.height=6----------------------------------------
+## ----plots, fig.width=6, fig.height=6-----------------------------------------
 plot(fit_iClusterVB)
 
-## ----piplot, fig.width= 6, fig.height=6---------------------------------------
+## ----piplot, fig.width=6, fig.height=6----------------------------------------
 # The `piplot` function can be used to visualize the probability of inclusion
 
 piplot(fit_iClusterVB)
 
-## ----chmap, echo = TRUE, fig.width= 6, fig.height=6---------------------------
+## ----chmap, echo = TRUE, fig.width=6, fig.height=6----------------------------
 # The `chmap` function can be used to display heat maps for each data view
 
 chmap(fit_iClusterVB, rho = 0,
