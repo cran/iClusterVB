@@ -2,7 +2,7 @@ Type: Package
 Package: iClusterVB
 Title: Fast Integrative Clustering and Feature Selection for High
         Dimensional Data
-Version: 0.1.2
+Version: 0.1.3
 Authors@R: c(
     person("Abdalkarim", "Alnajjar", , "abdalkarim.alnajjar@queensu.ca", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0009-0008-4439-1214")),
@@ -31,6 +31,6 @@ LazyDataCompression: xz
 RoxygenNote: 7.3.2
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2024-08-20 13:04:22 UTC; abood
+Packaged: 2024-12-04 06:06:26 UTC; Abdalkarim
 Repository: CRAN
-Date/Publication: 2024-08-20 19:10:02 UTC
+Date/Publication: 2024-12-04 08:20:07 UTC
