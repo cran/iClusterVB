@@ -110,7 +110,6 @@
 #' @importFrom graphics abline axis barplot text par
 #' @importFrom stats aggregate kmeans model.matrix reorder setNames var
 #' @importFrom utils capture.output
-#' @importFrom R.utils nullfile
 #' @rawNamespace import(mclust, except = dmvnorm)
 #' @rawNamespace import(Rcpp, except = registerPlugin)
 #' @export iClusterVB
@@ -346,7 +345,7 @@ iClusterVB <- function(
           lambda = rep(1, p_total),
           type = "gower"
         ),
-        file = R.utils::nullfile()
+        file = nf()
       )
       zz <- initial_cluster <- as.numeric(fit.kproto$cluster)
       table(fit.kproto$cluster)
